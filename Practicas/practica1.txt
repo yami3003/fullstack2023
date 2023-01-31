@@ -1,0 +1,9 @@
+1. He descargado Git 2.39.1, Visual Studio Code y Chrome.
+2. Mi GitHub es https://github.com/yami3003
+
+He instalado Git, Visual studio code y Github Desktop. 
+He creado los documentos html en Studio Visual Code y los he editado y guardado.
+He abierto el repositorio en Github Desktop. 
+He escrito un sumario explicando la edición y he clickado "Commit to main" para hacer un PUSH.
+Un push significa subir los documentos editados en Github.
+
