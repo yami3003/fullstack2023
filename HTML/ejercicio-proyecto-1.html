@@ -14,20 +14,28 @@
             padding: 8px 16px;
             width: 100%;
         }
+        .main-nav__item {
+            display: inline;
+        }
+        .main-nav {
+            display: inline;
+        }
     </style>
 </head>
 <body>
-    <div>
-        <header class="main-header"><h1>Banco</h1></header>
-        <nav>
-        <ul>
-            <li>Inicio</li>
-            <li>Acceso clientes</li>
-            <li>FAQs</li>
-            <li>Servicios</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
-    </div>
+    <header class="main-header">
+        <div>
+            <h1>Banco</h1>
+            <nav class="main-nav">
+                <ul class="main-nav__item">
+                    <li class="main-nav__item">Inicio</li>
+                    <li class="main-nav__item">Acceso clientes</li>
+                    <li class="main-nav__item">FAQs</li>
+                    <li class="main-nav__item">Servicios</li>
+                    <li class="main-nav__item">Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
