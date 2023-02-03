@@ -18,20 +18,24 @@
             display: inline;
         }
         .main-nav {
-            display: inline;
+            display: inline-block;
         }
+        .main-header > div {
+            display: inline-block;
+        }
+
     </style>
 </head>
 <body>
     <header class="main-header">
-        <div>
+        <div class="main-nav">
             <h1>Banco</h1>
-            <nav class="main-nav">
+            <nav class=".main-nav">
                 <ul class="main-nav__item">
                     <li class="main-nav__item">Inicio</li>
+                    <li class="main-nav__item">Servicios</li>
                     <li class="main-nav__item">Acceso clientes</li>
                     <li class="main-nav__item">FAQs</li>
-                    <li class="main-nav__item">Servicios</li>
                     <li class="main-nav__item">Contacto</li>
                 </ul>
             </nav>
